@@ -30,7 +30,7 @@ The SIRModel class has four private member variables: "beta_", "gamma_", "days_"
 "record_". The "beta_" and "gamma_" variables represent the probability of infection and recovery,
 respectively. The "days_" variable represents the duration of the epidemic. The "N_" variable
 represents the total number of individuals in the population. The "record_" variable is a vector
-where the values of S, I, and R will be saved during the model evolution.SIRGraph:
+where the values of S, I, and R will be saved during the model evolution.
 
 # SIRGraph:
 The "sir_graph.hpp" file defines the SIRGraph subclass of the SIRModel class. The SIRGraph class
