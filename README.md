@@ -37,7 +37,7 @@ The "sir_graph.hpp" file defines the SIRGraph subclass of the SIRModel class. Th
 add a single public method, "graph()", which generates a graphical representation of the evolution
 of S, I, and R over time using the ROOT data analysis framework.
 The creation of a subclass guarantees the independence of the code that makes use of the standard
-C++ libraries from the one that uses the RootCern Framework while maintaining the logical
+C++ libraries from the one that uses the RootCern Framework, while maintaining the logical
 coherence with the program architecture and ease of access to the data.
 First, for each variable S, I, and R, a TGraph object is created, which is an object made up of two
 arrays x and y with npoints each.
