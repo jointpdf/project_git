@@ -53,3 +53,6 @@ The graph is then saved as a PNG image file, and all objects are deallocated to 
 The "main.cpp" file creates an SIRGraph object, initializes it with the input values, checks the
 input, evolves the model, generates the graphical representation, and prints the results to standard
 output
+
+# Copile string:
+ g++ -Wall -Wextra -fsanitize=address  main.cpp -o main sir_model.cpp sir_graph.cpp `root-config --cflags --glibs`
