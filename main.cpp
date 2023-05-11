@@ -1,3 +1,5 @@
+//compile string: g++ -Wall -Wextra -fsanitize=address  main.cpp -o main sir_model.cpp sir_graph.cpp `root-config --cflags --glibs`
+
 //authors: Goffredo Pierbattisti & Giordano Colombo
 /*This program is an implementation of the SIR model that recive as input the probability of infection "Beta", the probability of recovery "Gamma", the duration in days of the epidemic and the number of Susceptible, Infected and Recovered at zero time and outputs a complete day-by-day list of the evolution of the numbers of Susceptible, Infected and Recovered and a graphic rapresentation of the three variabiles*/
 /*If you want to exclude the part relating to ROOT, simply modify main by initializing a SIRModel object
